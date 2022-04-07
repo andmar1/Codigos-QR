@@ -9,9 +9,11 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
-        <!-- libreria para generar el QR  -->
+       
+        <!-- libreria para generar el QR,el atributo defer carga primero la parte del html, para despues ejecutar el script   -->
 		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 		<script defer src="app.js"></script>
+
 	</head>
 	<body>
 		<div class="contenedor">
@@ -21,6 +23,7 @@
 			</form>
 
 			<div id="contenedorQR" class="contenedorQR"></div>
+            
 		</div>
 	</body>
 </html>
